@@ -1,0 +1,10 @@
+# Ignore backups directory
+    backups/
+
+# Ignore specific file types 
+*.bak
+*.gho
+*.log
+*.ori
+*.orig
+*.tmp
