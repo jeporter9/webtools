@@ -1,5 +1,7 @@
-# Ignore backups directory
+# Ignore backups/archive directoroes
     backups/
+    archives/
+
 
 # Ignore specific file types 
 *.bak
