@@ -1,5 +1,5 @@
 # My WebTools Class Project
 
-My project includes HTML and CSS - feel free to view the pages. My project website is linked here [Web Tools Project](https://jeporter9.github.io/webtools/). Please visit and let me know how we can work together.
+My project involves HTML and CSS. You can check out the pages here: [Web Tools Project](https://jeporter9.github.io/webtools/). Feel free to explore, and let me know how we can collaborate!
 
-ChatGPT was utilized to help build this website by helping me create a readable but accurate introduction as well as create my programmer avatar.
+I used ChatGPT to help build this website, particularly for crafting a clear and engaging introduction, as well as designing my programmer avatar.
