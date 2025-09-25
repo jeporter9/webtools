@@ -10,8 +10,29 @@
     #35424a; dark gray (header)
 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Syne+Mono&display=swap');
+
+.griffy-regular {
+    font-family: "Griffy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.syne-mono-regular {
+    font-family: "Syne Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    font-size: 112.5%;
+    /* 18px base (1rem = 18px) */
+}
+
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -21,30 +42,104 @@ body {
 
 header {
     background: linear-gradient(to bottom right, #d4e4f7, #1b508d 100%);
-    /*background: #35424a; */
-    color: #ffffff;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     text-align: center;
-    margin-bottom: 1rem;
+    /*background: #35424a;
+    color: #ffffff;    
+    margin-bottom: 1rem;  */
 }
 
 main {
-    max-width: 966px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 footer {
-    background: #091834;
+    background: #1258DC;
     text-align: center;
     padding: 1rem 0;
     margin-top: 1rem;
-    font-size: 0.9rem;
-    color: #7070FF;
+    color: #F2E7D9;
     /*#F2E7D9;*/
-    border-top: 1px solid #e4e4e4;
 }
 
+footer>p {
+    color: #f4f4f4;
+}
+
+
+/* Chapgpt: I need help deciding on font sizes for my web site from h1-h6 and p. Can you help me decide a good size strategy?*/
 h1 {
-    color: rgb(57, 57, 57);
+    color: #4E2B0E;
+    font-family: "Syne Mono", monospace;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #4E2B0E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1.125rem;
+}
+
+
+p {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+a:link,
+a:visited {
+    color: #996024;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: darkred;
+}
+
+.nav-link:link,
+.nav-link:visited {
+    color: #996024;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.nav-link:active {
+    color: #F2E7D9;
 }
