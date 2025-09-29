@@ -1,6 +1,9 @@
 /*
-    #F2E7D9 Beige (background)     
-    #FB8604 Orange (pop)
+    #F7E3D4 Beige (background)     
+    #B65002 Orange (pop)
+    #183BF0    
+    #B8AC65 
+    #342E09
     #1258DC Blue
     #144EB8 Dark Blue
     #091834 Navy Blue
@@ -12,6 +15,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Griffy&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
 
 .griffy-regular {
     font-family: "Griffy", system-ui;
@@ -25,6 +29,13 @@
     font-style: normal;
 }
 
+.asimovian-regular {
+    font-family: "Asimovian", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 html {
     font-size: 112.5%;
     /* 18px base (1rem = 18px) */
@@ -35,14 +46,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: rgb(57, 57, 57);
+    background-color: #E6E8E6;
+    color: #072AC8;
     line-height: 1.5;
 }
 
 header {
     background: linear-gradient(to bottom right, #d4e4f7, #1b508d 100%);
-    padding: 0.5rem 0;
+    padding: 0.125rem 0;
     text-align: center;
     /*background: #35424a;
     color: #ffffff;    
@@ -56,23 +67,25 @@ main {
 }
 
 footer {
-    background: #1258DC;
+    /* background: #3772FF; */
+    background: #0d0c0d;
     text-align: center;
     padding: 1rem 0;
     margin-top: 1rem;
-    color: #F2E7D9;
+    color: white;
     /*#F2E7D9;*/
 }
 
 footer>p {
-    color: #f4f4f4;
+    /* color: #0A0A0A; */
+    color: #3772FF;
 }
 
 
 /* Chapgpt: I need help deciding on font sizes for my web site from h1-h6 and p. Can you help me decide a good size strategy?*/
 h1 {
     color: #4E2B0E;
-    font-family: "Syne Mono", monospace;
+    font-family: "Asimovian", sans-serif;
     font-weight: 800;
     font-style: normal;
     font-size: 3rem;
@@ -111,6 +124,7 @@ h6 {
 
 
 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0 0 1rem 0;
     font-size: 1.1rem;
     color: #333;
@@ -120,26 +134,43 @@ p {
 
 a:link,
 a:visited {
-    color: #996024;
+    color: #080708;
 }
 
 a:hover {
-    color: red;
+    color: #d1a220;
 }
 
 a:active {
-    color: darkred;
+    color: #F7E3D4;
 }
 
 .nav-link:link,
 .nav-link:visited {
-    color: #996024;
+    color: #080708;
 }
 
 .nav-link:hover {
-    color: red;
+    color: #FDCA40;
 }
 
 .nav-link:active {
-    color: #F2E7D9;
+    color: #F7E3D4;
+}
+
+footer .nav-link:link,
+footer .nav-link:visited {
+    color: #f0ecf0;
+}
+
+footer .nav-link:hover {
+    color: #FDCA40;
+}
+
+footer .nav-link:active {
+    color: #F7E3D4;
+}
+
+.navbar {
+    text-align: center;
 }
