@@ -174,3 +174,8 @@ footer .nav-link:active {
 .navbar {
     text-align: center;
 }
+
+.fluid-image {
+    max-width: 100%;
+    height: auto;
+}
