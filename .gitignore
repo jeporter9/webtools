@@ -1,6 +1,8 @@
-# Ignore backups/archive directoroes
-    backups/
-    archives/
+# Ignore backups/archive directories
+    **/backups/*
+    **/archives/*
+    **/archives/favicon-2/
+    
 
 
 # Ignore specific file types 
