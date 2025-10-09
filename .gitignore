@@ -1,9 +1,9 @@
 # Ignore backups/archive directories
-    **/backups/*
-    **/archives/*
-    **/archives/favicon-2/
-    
+backups/
+archives/
 
+# Ensure all files and subfolders in archives/ are ignored
+archives/**
 
 # Ignore specific file types 
 *.bak
