@@ -24,7 +24,10 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- CSS Reset - https://meyerweb.com/eric/tools/css/reset/index.html -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/layout.css"> <!-- Layout CSS -->
 </head>
 
 <body>
@@ -35,15 +38,13 @@
         <a href="contact-us.html">Contact Us</a>
     </nav>
     <!-- Page Header -->
-    <header>
+    <header class="page-header">
         <h1>
             Getting Started at Launch Studio!
         </h1>
     </header>
 
-    <!-- Main content -->
-    <main>
-        <h2>My Launch Studio Introduction</h2>
+    <aside class="sidebar">
         <nav aria-label="Section navigation">
             <h3>Contents</h3>
             <ul>
@@ -52,6 +53,11 @@
                 <li><a href="#journey">Learning Journey</a></li>
             </ul>
         </nav>
+    </aside>
+
+    <!-- Main content -->
+    <main class="main-content">
+        <h2>My Launch Studio Introduction</h2>
 
         <section id="about">
             <h3>About Me</h3>

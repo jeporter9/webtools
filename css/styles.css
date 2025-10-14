@@ -131,6 +131,10 @@ p {
     line-height: 1.6;
 }
 
+ol,
+ul {
+    list-style: disc inside;
+}
 
 a:link,
 a:visited {
