@@ -8,6 +8,8 @@
     #144EB8 Dark Blue
     #091834 Navy Blue
 
+    #3d6485  blue for logo
+
     original color scheme
     #f4f4f4; light gray (background)
     #35424a; dark gray (header)
@@ -39,6 +41,12 @@
 html {
     font-size: 112.5%;
     /* 18px base (1rem = 18px) */
+}
+
+/* nav styles */
+nav {
+    background-color: lightgray;
+    padding: 12px;
 }
 
 
