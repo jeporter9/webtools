@@ -43,13 +43,6 @@ html {
     /* 18px base (1rem = 18px) */
 }
 
-/* nav styles */
-nav {
-    background-color: lightgray;
-    padding: 12px;
-}
-
-
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;

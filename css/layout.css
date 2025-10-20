@@ -8,8 +8,16 @@ body,
 
 /* Add a black background color to the top navigation */
 .topnav {
+    /* display: block;
+    width: 100%; */
     background-color: #333;
     overflow: hidden;
+    padding-bottom: .5rem;
+    position: fixed;
+    margin: auto;
+    text-align: center;
+    top: 0;
+    z-index: 2;
 }
 
 /* Style the links inside the navigation bar */
@@ -39,20 +47,44 @@ body,
     display: block;
     width: 100%;
     background-color: #072AC8;
+    overflow: hidden;
     padding-bottom: .5rem;
     position: fixed;
     margin: auto;
     text-align: center;
     top: 0;
     z-index: 2;
-
 }
+
+/* Style the links inside the navigation bar */
+.main-nav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.main-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.main-nav a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+
 
 .logo {
     position: absolute;
-    top: 2rem;
+    top: .25rem;
     right: 6vw;
-    width: clamp(60px, 10vw, 135px);
+    width: clamp(45px, 10vw, 75px);
+    z-index: 1;
     height: auto;
 }
 
@@ -61,6 +93,30 @@ header {
     z-index: 0;
     margin-top: 45px;
     /* Prevent overlap with fixed nav */
+}
+
+footer {
+    position: relative;
+    z-index: 0;
+    margin-top: 5rem;
+    /*   padding: 1rem 0;
+    margin-top: 1rem; */
+}
+
+nav {
+    /* background-color: lightgray; */
+    padding: 12px;
+}
+
+main {
+
+    margin: auto;
+    padding: 1rem;
+    max-width: 1200px;
+}
+
+section {
+    margin-bottom: 2rem;
 }
 
 aside {
@@ -92,7 +148,8 @@ aside {
 
 .sidebar {
     width: 20vw;
-    background-color: #f4f4f4;
+    background-color: #E6E8E6;
+    /* #f4f4f4; */
     padding: 1rem;
     margin: 1rem 8vw 1rem 2vw;
     margin-top: 1rem;
