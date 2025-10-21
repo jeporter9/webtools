@@ -184,3 +184,83 @@ footer .nav-link:active {
     max-width: 100%;
     height: auto;
 }
+
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 1rem 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.inline-control {
+    width: auto;
+    display: inline;
+    margin-right: 1rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin: 0 0.5rem 0 0;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1.2rem;
+    line-height: inherit;
+    padding: 0.5rem 1rem;
+    background-color: #18508D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    width: auto;
+    display: block;
+    font-family: inherit;
+    font-size: 1.2rem;
+    line-height: inherit;
+    padding: 0.5rem 1rem;
+    background-color: #18508D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    width: auto;
+    display: block;
+    font-family: inherit;
+    font-size: 1.2rem;
+    line-height: inherit;
+    padding: 0.5rem 1rem;
+    background-color: #ee790b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #d4e4f7;
+    color: #18508D;
+}
+
+p.form {
+    margin: 1.5rem 0 0 0;
+    font-size: 1.1rem;
+    color: #4E2B0E;
+    line-height: 1.6rem;
+}

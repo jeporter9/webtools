@@ -84,7 +84,7 @@ body,
     top: .25rem;
     right: 6vw;
     width: clamp(45px, 10vw, 75px);
-    z-index: 1;
+    z-index: 3;
     height: auto;
 }
 
@@ -138,6 +138,13 @@ aside {
     width: 60vw;
     max-width: 960px;
     margin: 0 30vw 0 10vw;
+}
+
+.main-contact {
+    padding: 1rem;
+    width: 60vw;
+    max-width: 960px;
+    margin: 0 20vw 0 20vw;
 }
 
 .page-header {
