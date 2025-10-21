@@ -188,9 +188,11 @@ footer .nav-link:active {
 input,
 textarea,
 select {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
+    width: auto;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 label {
@@ -213,49 +215,39 @@ input[type="checkbox"] {
 }
 
 button {
-    font-family: inherit;
+    margin-top: 1rem;
+    width: auto;
+    display: block;
+
     font-size: 1.2rem;
-    line-height: inherit;
+
     padding: 0.5rem 1rem;
-    background-color: #18508D;
-    color: white;
+
+
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 button[type="submit"] {
-    width: auto;
-    display: block;
-    font-family: inherit;
-    font-size: 1.2rem;
-    line-height: inherit;
-    padding: 0.5rem 1rem;
     background-color: #18508D;
     color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
 }
 
 button[type="reset"] {
-    width: auto;
-    display: block;
-    font-family: inherit;
-    font-size: 1.2rem;
-    line-height: inherit;
-    padding: 0.5rem 1rem;
-    background-color: #ee790b;
+    background-color: #AF5908;
     color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
 }
 
-button[type="submit"]:hover,
-button[type="reset"]:hover {
+button[type="submit"]:hover {
     background-color: #d4e4f7;
     color: #18508D;
+}
+
+
+button[type="reset"]:hover {
+    background-color: #d4e4f7;
+    color: #AF5908;
 }
 
 p.form {
@@ -264,3 +256,53 @@ p.form {
     color: #4E2B0E;
     line-height: 1.6rem;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table caption {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    border-bottom: thin solid black;
+}
+
+thead tr {
+    background-color: darkblue;
+    color: cornsilk;
+}
+
+tbody tr:nth-child(even) {
+    background-color: silver;
+}
+
+tbody tr:hover {
+    background-color: rgb(238, 144, 210);
+}
+
+/*
+    #F7E3D4 Beige (background)     
+    #B65002 Orange (pop)
+    #183BF0    
+    #B8AC65 
+    #342E09
+    #1258DC Blue
+    #144EB8 Dark Blue
+    #091834 Navy Blue
+
+    #3d6485  blue for logo
+
+    original color scheme
+    #f4f4f4; light gray (background)
+    #35424a; dark gray (header)
+*/
