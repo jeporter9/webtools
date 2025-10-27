@@ -46,38 +46,66 @@
 
     <!-- Main content -->
     <main class="main-content">
-        <h2>Get in Touch</h2>
-
-        <p>If you would like to reach out, here are a few ways you can connect with me:</p>
-
-        <ul>
-            <li><strong>Email:</strong> <a href="mailto:james.porter@example.com">james.porter@example.com</a></li>
-            <!--         <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jamesporter"
-                        target="_blank">linkedin.com/in/jamesporter</a></li> -->
-            <li><strong>GitHub:</strong> <a href="https://github.com/jeporter9/webtools" target="_blank">jeporter9</a>
-            </li>
-            <!--  <li><strong>Twitter:</strong> <a href="https://twitter.com/jamesporter" target="_blank">@jamesporter</a>
-                </li> -->
-        </ul>
-
-        <p><strong>Business Hours:</strong> Monday – Friday, 9:00 AM – 5:00 PM (CST)</p>
 
         <!-- Accessible Contact Us form with semantic elements-->
         <section>
             <h2 id="contact-form-heading">Contact Us</h2>
-            <form action="success.html" method="get">
+            <form name="contact" action="success.html" method="get">
                 <fieldset>
                     <legend>Get in touch</legend>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
+                    <p>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Firstname Lastname" required>
+                    </p>
 
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+                    <p>
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+                    </p>
 
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="username@example.com" required>
+                    </p>
 
-                    <button type="submit">Submit</button> <button type="reset">Reset</button>
+                    <p>
+                        <label for="topic">Concern</label>
+                        <select id="topic" name="topic">
+                            <option value="education">Education</option>
+                            <option value="employment">Employment</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <input class="inline-control" type="checkbox" id="subscribe" name="subscribe">
+                        <label class="inline-control" for="subscribe" title="Subscribe to newsletter.">Subscribe to
+                            newsletter</label>
+                    </p>
+
+                    <p>
+                        <label>Request Type</label>
+                        <input class="inline-control" id="reqemail" type="radio" name="request">
+                        <label class="inline-control" for="reqemail" title="Select if you want to be emailed.">
+                            Question</label>
+
+                        <input class="inline-control" id="reqphone" type="radio" name="request">
+                        <label class="inline-control" for="reqphone" title="Select if you want to be called.">
+                            Comment</label>
+                    </p>
+
+
+                    <p>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" cols="40"
+                            placeholder="Enter your message here..." required></textarea>
+                    </p>
+
+
+
+                    <p class="button-container">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </p>
                 </fieldset>
             </form>
         </section>
