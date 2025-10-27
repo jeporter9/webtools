@@ -209,12 +209,6 @@ aside {
     /* Add space between buttons */
 }
 
-.checkbox-container checkbox {
-    display: inline-block;
-    margin-right: 10px;
-    /* Add space between checkboxes */
-}
-
 form {
     max-width: 65%;
     margin: 0 auto;
