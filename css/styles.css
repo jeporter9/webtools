@@ -66,7 +66,7 @@ header {
 main {
     max-width: 800px;
     margin: 0 auto;
-    /* padding: 1rem; */
+    padding: 1rem;
 }
 
 footer {
@@ -84,6 +84,11 @@ footer>p {
     color: #3772FF;
 }
 
+.footer-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 /* Chapgpt: I need help deciding on font sizes for my web site from h1-h6 and p. Can you help me decide a good size strategy?*/
 h1 {
@@ -91,7 +96,9 @@ h1 {
     font-family: "Asimovian", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 3rem;
+    font-size: clamp(2rem, 5vw, 4rem);
+    /* font-size: clamp(2rem, 5vw + 1rem, 3rem); */
+    /* font-size: 3rem; */
 }
 
 h2,
@@ -134,10 +141,10 @@ p {
     line-height: 1.6;
 }
 
-ol,
+/* ol,
 ul {
     list-style: disc inside;
-}
+} */
 
 a:link,
 a:visited {
