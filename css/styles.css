@@ -47,6 +47,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     /* padding: 0; */
+    padding-top: 1.5rem;
     padding-bottom: 45px;
     /* Add padding to body to prevent content from being hidden by the fixed footer */
     background-color: #E6E8E6;

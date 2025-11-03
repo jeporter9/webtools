@@ -41,7 +41,7 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="page-header">
+    <header class="site-header">
         <h1>Contact Us</h1>
         <img src="images/logo.png" class="logo" alt="Launch Studio logo">
     </header>
@@ -84,17 +84,18 @@
                             newsletter</label>
                     </p>
 
-                    <p>
-                        <label>Request Type</label>
-                        <input class="inline-control" id="reqemail" type="radio" name="request">
-                        <label class="inline-control" for="reqemail" title="Select if you want to be emailed.">
-                            Question</label>
+                    <fieldset>
+                        <legend>Request Type</legend>
+                        <p>
+                            <input class="inline-control" id="reqemail" type="radio" name="request">
+                            <label class="inline-control" for="reqemail" title="Select if you want to be emailed.">
+                                Question</label>
 
-                        <input class="inline-control" id="reqphone" type="radio" name="request">
-                        <label class="inline-control" for="reqphone" title="Select if you want to be called.">
-                            Comment</label>
-                    </p>
-
+                            <input class="inline-control" id="reqphone" type="radio" name="request">
+                            <label class="inline-control" for="reqphone" title="Select if you want to be called.">
+                                Comment</label>
+                        </p>
+                    </fieldset>
 
                     <p>
                         <label for="message">Message</label>
@@ -113,33 +114,33 @@
         </section>
     </main>
 
-
+    <!-- Page Footer -->
     <footer class="flex-footer">
-        <div>
-            <h3 class="footer-header">Resources</h3>
-            <ul class="footer-content-left">
-                <li><a href="https://www.dallascollege.edu/" class="nav-link" target="_blank">Dallas College</a></li>
-                <li><a href="https://chatgpt.com/" class="nav-link" target="_blank">ChatGPT</a></li>
-            </ul>
+        <div class="item-order-1">
+            <h3 class="footer-header">Copyright &copy; 2025 James Porter</h3>
+            <a href="mailto:someone@example.com" class="nav-link footer-links">Webmaster</a>
         </div>
 
-        <div>
-            <h3 class="footer-header">Copyright &copy; 2025 James Porter</h3>
-            <a href="mailto:someone@example.com" class="nav-link">Webmaster</a>
+        <div class="item-order-2">
+            <h3 class="footer-header">Resources</h3>
+            <ul class="footer-content-left">
+                <li><a href="https://www.dallascollege.edu/" class="nav-link footer-links" target="_blank">Dallas
+                        College</a></li>
+                <li><a href="https://chatgpt.com/" class="nav-link footer-links" target="_blank">ChatGPT</a></li>
+            </ul>
         </div>
 
         <!-- Nav bar -->
-        <nav class="footer-nav" aria-label="Footer navigation">
+        <nav class="footer-nav item-order-3" aria-label="Footer navigation">
             <h3 class="footer-header">Site Nav</h3>
             <ul class="footer-content-left">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="about-us.html" class="nav-link">About Us</a></li>
-                <li><a href="contact-us.html" class="nav-link">Contact Us</a></li>
-                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="index.html" class="nav-link footer-links">Home</a></li>
+                <li><a href="about-us.html" class="nav-link footer-links">About Us</a></li>
+                <li><a href="contact-us.html" class="nav-link footer-links">Contact Us</a></li>
+                <li><a href="team.html" class="nav-link footer-links">Team</a></li>
             </ul>
         </nav>
     </footer>
-
 </body>
 
 </html>
