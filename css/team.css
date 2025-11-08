@@ -42,3 +42,13 @@
     font-size: 0.9rem;
     color: #333;
 }
+
+
+/* =======================
+   Responsive Team Layout
+   ======================= */
+@media (max-width: 600px) {
+    .team-container {
+        justify-content: center;
+    }
+}
