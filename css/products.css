@@ -40,11 +40,6 @@
     height: auto;
 }
 
-.parent-container {
-    display: flex;
-    /* align-items: stretch; /* This is the default and often not needed */
-}
-
 .feature-product {
     grid-column: 2 / -2;
     /* spans 4 columns */
@@ -55,7 +50,6 @@
     grid-column: span 3;
     /* spans 3 columns */
     grid-row: 2 / 3;
-
 }
 
 .third-row-product {
@@ -71,7 +65,6 @@
     margin-bottom: 10px;
     padding: 0 8px;
 }
-
 
 .product-button {
     background-color: #18508D;
@@ -96,32 +89,8 @@
     color: white;
 }
 
-
 .product-button:hover {
     background-color: white;
     color: #18508D;
     border: 1px solid #18508D;
-}
-
-
-
-/* =======================
-   Responsive Grid Layout
-   ======================= */
-@media (max-width: 1200px) {
-    .products-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .products-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .products-grid {
-        grid-template-columns: 1fr;
-    }
 }
