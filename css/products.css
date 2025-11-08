@@ -54,7 +54,7 @@
 
 .third-row-product {
     grid-column: span 2;
-    /* spans 4 columns */
+    /* spans 2 columns */
     grid-row: 3 / 4;
 }
 
