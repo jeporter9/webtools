@@ -28,6 +28,8 @@
     <!-- CSS Reset - https://meyerweb.com/eric/tools/css/reset/index.html -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/layout.css"> <!-- Layout CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 
 
@@ -50,48 +52,50 @@
         <h1>Success!</h1>
         <p>Your form has been successfully submitted. Thank you for contacting us!</p>
 
-        <table>
-            <caption id="table-heading">Upcoming Training Schedule</caption>
-            <thead>
-                <tr>
-                    <th scope="col" abbr="Dates" id="col1">Dates</th>
-                    <th scope="col" abbr="Topics" id="col2">Topics</th>
-                    <th scope="col" abbr="Instructors" id="col3">Instructors</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td headers="col1">January 5th, 2026</td>
-                    <td headers="col2">Introduction to AI</td>
-                    <td headers="col3">Dr. Smith</td>
-                </tr>
-                <tr>
-                    <td headers="col1">January 12th, 2026</td>
-                    <td headers="col2">Advanced AI Techniques</td>
-                    <td headers="col3">Dr. Johnson</td>
-                </tr>
-                <tr>
-                    <td headers="col1">January 19th, 2026</td>
-                    <td headers="col2">AI in Healthcare</td>
-                    <td headers="col3">Dr. Lee</td>
-                </tr>
-                <tr>
-                    <td headers="col1">January 26th, 2026</td>
-                    <td headers="col2">Ethics in AI</td>
-                    <td headers="col3">Dr. Kim</td>
-                </tr>
-                <tr>
-                    <td headers="col1">February 2nd, 2026</td>
-                    <td headers="col2">AI and Society</td>
-                    <td headers="col3">Dr. Patel</td>
-                </tr>
-                <tr>
-                    <td headers="col1">February 9th, 2026</td>
-                    <td headers="col2">AI in Business</td>
-                    <td headers="col3">Dr. Garcia</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="w3-responsive">
+            <table class="w3-table-all  w3-large w3-hoverable">
+                <caption class="w3-theme-blue" id="table-heading">Upcoming Training Schedule</caption>
+                <thead>
+                    <tr class="w3-blue">
+                        <th scope="col" abbr="Dates" id="col1">Dates</th>
+                        <th scope="col" abbr="Topics" id="col2">Topics</th>
+                        <th scope="col" abbr="Instructors" id="col3">Instructors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td headers="col1">January 5th, 2026</td>
+                        <td headers="col2">Introduction to AI</td>
+                        <td headers="col3">Dr. Smith</td>
+                    </tr>
+                    <tr>
+                        <td headers="col1">January 12th, 2026</td>
+                        <td headers="col2">Advanced AI Techniques</td>
+                        <td headers="col3">Dr. Johnson</td>
+                    </tr>
+                    <tr>
+                        <td headers="col1">January 19th, 2026</td>
+                        <td headers="col2">AI in Healthcare</td>
+                        <td headers="col3">Dr. Lee</td>
+                    </tr>
+                    <tr>
+                        <td headers="col1">January 26th, 2026</td>
+                        <td headers="col2">Ethics in AI</td>
+                        <td headers="col3">Dr. Kim</td>
+                    </tr>
+                    <tr>
+                        <td headers="col1">February 2nd, 2026</td>
+                        <td headers="col2">AI and Society</td>
+                        <td headers="col3">Dr. Patel</td>
+                    </tr>
+                    <tr>
+                        <td headers="col1">February 9th, 2026</td>
+                        <td headers="col2">AI in Business</td>
+                        <td headers="col3">Dr. Garcia</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 
     <!-- Page Footer -->
@@ -113,8 +117,9 @@
         <!-- Nav bar -->
         <nav class="footer-nav item-order-3" aria-label="Footer navigation">
             <h3 class="footer-header">Site Nav</h3>
-            <ul class="footer-content-left">
-                <li><a href="index.html" class="nav-link footer-links">Home</a></li>
+            <ul class="footer-content-left w3-ul">
+                <li><i class="fa-solid fa-house-user"></i><a href="index.html" class="nav-link footer-links">Home</a>
+                </li>
                 <li><a href="about-us.html" class="nav-link footer-links">About Us</a></li>
                 <li><a href="contact-us.html" class="nav-link footer-links">Contact Us</a></li>
                 <li><a href="team.html" class="nav-link footer-links">Team</a></li>

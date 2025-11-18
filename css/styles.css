@@ -267,6 +267,7 @@ p.form {
     line-height: 1.6rem;
 }
 
+/* 
 table {
     border-collapse: collapse;
     width: 100%;
@@ -298,7 +299,7 @@ tbody tr:nth-child(even) {
 
 tbody tr:hover {
     background-color: rgb(144, 208, 238);
-}
+} */
 
 /*
     #F7E3D4 Beige (background)     

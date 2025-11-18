@@ -29,12 +29,14 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/layout.css"> <!-- Layout CSS -->
     <link rel="stylesheet" href="css/products.css"> <!-- Products CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 
 <body>
     <!-- Nav bar -->
     <nav class="main-nav" aria-label="Main navigation">
-        <a href="index.html">Home</a>
+        <a href="index.html" class="w">Home</a>
         <a href="about-us.html">About Us</a>
         <a href="contact-us.html">Contact Us</a>
         <a href="team.html">Team</a>
@@ -52,17 +54,64 @@
 
     <!-- Main content -->
     <main class="products-grid">
-        <div class="feature-product-card feature-product">
+
+        <div class="w3-card-4 w3-round-large w3-border feature-product">
+
+            <header class="w3-container w3-light-grey">
+                <h3>LS Suite</h3>
+            </header>
+
+            <div class="product-flex">
+                <img src="images/lssuite-md.png" alt="product suite" class="product-image w3-left">
+                <div class="w3-container">
+                    <!-- <p>LS Suite</p> -->
+                    <p>This suite contains all of Launch Studio's products.</p>
+                    <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="feature-product-card feature-product">
             <img src="images/lssuite-md.png" class="product-image" alt="product suite">
             <div>
                 <h2>LS Suite</h2>
                 <p>This suite contains all of Launch Studio's products.</p>
                 <a href="" class="product-button">Learn More</a>
             </div>
+        </div> -->
+
+        <div class="w3-card-4 w3-round-large w3-border second-row-product">
+
+            <header class="w3-container w3-light-grey">
+                <h3>AI Assistant</h3>
+            </header>
+
+            <div class="product-flex">
+                <img src="images/aiassistant-md.png" alt="ai assistant product" class="product-image w3-left">
+                <div class="w3-container">
+                    <p>AI Assistant will help you with your daily tasks.</p>
+                    <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                </div>
+            </div>
         </div>
 
+        <div class="w3-card-4 w3-round-large w3-border second-row-product">
 
-        <div class="product-card second-row-product">
+            <header class="w3-container w3-light-grey">
+                <h3>Code Editor</h3>
+            </header>
+
+            <div class="product-flex">
+                <img src="images/codeeditor-md.png" alt="code editor product" class="product-image w3-left">
+                <div class="w3-container">
+                    <p>Code Editor is a text editor with features that specifically help write a
+                        programming language for a computer program.</p>
+                    <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!--   <div class="product-card second-row-product">
             <img src="images/aiassistant-md.png" class="product-image" alt="ai assistant product">
             <div>
                 <h2>AI Assistant</h2>
@@ -78,10 +127,26 @@
                     programming language for a computer program.</p>
                 <a href="" class="product-button">Learn More</a>
             </div>
+        </div> -->
+
+
+        <div class="w3-card-4 w3-round-large w3-border third-row-product">
+
+            <header class="w3-container w3-light-grey">
+                <h3>Code Editor</h3>
+            </header>
+
+            <div class="product-flex">
+                <img src="images/designtools-md.png" alt="design tools product" class="product-image w3-left">
+                <div class="w3-container">
+                    <p>Design Tools help create, modify, and optimize designs across graphic, web, and industrial
+                        fields.</p>
+                    <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                </div>
+            </div>
         </div>
 
-
-        <div class="product-card third-row-product">
+        <!-- <div class="product-card third-row-product">
             <img src="images/designtools-md.png" class="product-image" alt="design tools product">
             <div>
                 <h2>Design Tools</h2>
@@ -89,25 +154,55 @@
                     various fields like graphic, web, and industrial design.</p>
                 <a href="" class="product-button">Learn More</a>
             </div>
+        </div> -->
+
+        <div class="w3-card-4 w3-round-large w3-border third-row-product">
+
+            <header class="w3-container w3-light-grey">
+                <h3>File Manager</h3>
+            </header>
+
+            <div class="product-flex">
+                <img src="images/filemanager-md.png" alt="file manager product" class="product-image w3-left">
+                <div class="w3-container">
+                    <p>File Manager helps you organize and manage your files efficiently.</p>
+                    <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                </div>
+            </div>
         </div>
 
-        <div class="product-card third-row-product">
+        <!-- <div class="product-card third-row-product">
             <img src="images/filemanager-md.png" class="product-image" alt="file manager product">
             <div>
                 <h2>File Manager</h2>
                 <p>File Manager helps you organize and manage your files efficiently.</p>
                 <a href="" class="product-button">Learn More</a>
             </div>
+        </div> -->
+
+        <div class="w3-card-4 w3-round-large w3-border third-row-product">
+
+            <header class="w3-container w3-light-grey">
+                <h3>Project Manager</h3>
+            </header>
+
+            <div class="product-flex">
+                <img src="images/projectmanager-md.png" alt="project manager product" class="product-image w3-left">
+                <div class="w3-container">
+                    <p>Project Manager helps you plan, execute, and track your projects efficiently.</p>
+                    <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                </div>
+            </div>
         </div>
 
-        <div class="product-card third-row-product">
+        <!-- <div class="product-card third-row-product">
             <img src="images/projectmanager-md.png" class="product-image" alt="project manager product">
             <div>
                 <h2>Project Manager</h2>
                 <p>Project Manager helps you plan, execute, and track your projects efficiently.</p>
                 <a href="" class="product-button">Learn More</a>
             </div>
-        </div>
+        </div> -->
     </main>
 
     <!-- Page Footer -->
@@ -130,7 +225,8 @@
         <nav class="footer-nav item-order-3" aria-label="Footer navigation">
             <h3 class="footer-header">Site Nav</h3>
             <ul class="footer-content-left">
-                <li><a href="index.html" class="nav-link footer-links">Home</a></li>
+                <li><i class="fa-solid fa-house-user"></i><a href="index.html" class="nav-link footer-links">Home</a>
+                </li>
                 <li><a href="about-us.html" class="nav-link footer-links">About Us</a></li>
                 <li><a href="contact-us.html" class="nav-link footer-links">Contact Us</a></li>
                 <li><a href="team.html" class="nav-link footer-links">Team</a></li>
