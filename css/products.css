@@ -21,7 +21,7 @@
     border-radius: 8px;
     padding: 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 100vw;
+    max-width: 100%;
     height: auto;
     margin: 100%;
 }
@@ -47,6 +47,63 @@
     width: 20vw;
     height: auto;
 }
+
+.full-width {
+    width: 100%;
+    /* Makes the container stretch across the full width of the screen */
+}
+
+.product-card-featured {
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    justify-content: space-between;
+    /* Space between image/text and the button */
+    height: 100%;
+    /* Ensures the card takes up full height available */
+    padding: 20px;
+    /* Increase padding for better spacing */
+}
+
+.content-wrapper {
+    display: flex;
+    /* Enables flexbox layout */
+    align-items: center;
+    /* Vertically aligns items to the center */
+    justify-content: start;
+    /* Aligns items at the start of the container */
+    width: 100%;
+    /* Makes the featured product section stretch across */
+    flex-grow: 1;
+    /* This allows the content to take up available space */
+}
+
+.feature-product-image {
+    /* margin-right: 20px; */
+    /* Adds some space between the image and the paragraph */
+    /* width: clamp(150px, 50vw, 300px); */
+    /* Optional: set a max width for the image */
+    /* height: auto; */
+    /* Ensures the image maintains aspect ratio */
+
+    width: clamp(150px, 50vw, 300px);
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+}
+
+.centered-button {
+    width: 80%;
+    /* Makes the button 80% of the card's width */
+    margin-left: auto;
+    /* Centers the button horizontally */
+    margin-right: auto;
+    /* Centers the button horizontally */
+    padding: 10px;
+    /* Adds some padding to the button */
+}
+
 
 .product-card-second-row {
     display: flex;
@@ -111,8 +168,12 @@
     width: clamp(150px, 50vw, 300px);
     height: auto;
     border-radius: 4px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     padding: 0 8px;
+    margin-left: auto;
+    /* Centers image horizontally */
+    margin-right: auto;
+    /* Centers image horizontally */
 }
 
 .product-image {
@@ -135,12 +196,23 @@
     padding: 0 8px;
 }
 
-.product-flex {
+/* .product-flex {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+} */
+
+.product-flex {
+    display: flex;
+    flex-direction: column;
+    /* Stack the content vertically */
+    align-items: center;
+    /* Center align horizontally */
+    justify-content: space-between;
+    /* Evenly distribute items */
 }
+
 
 .product-button {
     background-color: #18508D;

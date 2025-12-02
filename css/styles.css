@@ -37,6 +37,15 @@
     font-style: normal;
 }
 
+.accent {
+    color: #fff;
+    background-color: #AF5908;
+}
+
+.text-accent {
+    color: #1b508d;
+    background-color: #fff;
+}
 
 html {
     font-size: 112.5%;

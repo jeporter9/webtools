@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -25,22 +25,23 @@
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <!-- CSS Reset - https://meyerweb.com/eric/tools/css/reset/index.html -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/layout.css"> <!-- Layout CSS -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 
-<body>
+<body class="w3-light-grey">
+
     <!-- Nav bar -->
     <nav class="main-nav" aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="about-us.html">About Us</a>
-        <a href="contact-us.html">Contact Us</a>
-        <a href="team.html">Team</a>
-        <a href="products.html">Products</a>
-        <a href="#" class="sign-in">Sign In</a>
+        <a href="index.html" class="w3-btn w3-round-large">Home</a>
+        <a href="about-us.html" class="w3-btn w3-round-large">About Us</a>
+        <a href="contact-us.html" class="w3-btn w3-round-large">Contact Us</a>
+        <a href="team.html" class="w3-btn w3-round-large">Team</a>
+        <a href="products.html" class="w3-btn w3-round-large">Products</a>
+        <a href="#" class="sign-in w3-btn w3-round-large">Sign In</a>
     </nav>
 
     <!-- Page Header -->
@@ -49,56 +50,141 @@
         <img src="images/logo.png" class="logo" alt="Launch Studio logo">
     </header>
 
-    <aside class="sidebar">
-        <nav aria-label="Section navigation">
-            <h2>Contents</h2>
-            <ul class="w3-ul">
-                <li><a href="#mission">Our Mission</a></li>
-                <li><a href="#values">Our Values</a></li>
-                <li><a href="#community">Join Our Community</a></li>
-            </ul>
-        </nav>
-    </aside>
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-    <!-- Main content -->
-    <main class="main-content">
-        <h2>About Us at Launch Studio</h2>
-        <p>Launch Studio is a dynamic platform dedicated to fostering innovation and creativity in the tech community.
-            Our mission is to provide resources, support, and a collaborative environment for developers, designers, and
-            entrepreneurs to bring their ideas to life.</p>
+        <!-- The Grid -->
+        <div class="w3-row-padding">
 
-        <section>
-            <h3 id="mission" class="scroll-stop">Our Mission</h3>
-            <p>At Launch Studio, we believe that great ideas can come from anyone, anywhere. Our mission is to empower
-                individuals and teams by providing the tools and support they need to succeed in the fast-paced world of
-                technology. We are committed to fostering a culture of collaboration, learning, and growth.</p>
-        </section>
+            <!-- Left Column -->
+            <div class="w3-third">
 
-        <section>
-            <h3 id="values" class="scroll-stop">Our Values</h3>
-            <ul class="w3-ul w3-border">
-                <li><strong>Innovation:</strong> We encourage out-of-the-box thinking and embrace new technologies and
-                    methodologies.</li>
-                <li><strong>Collaboration:</strong> We believe that working together leads to better solutions and
-                    stronger
-                    communities.</li>
-                <li><strong>Inclusivity:</strong> We are committed to creating an environment where everyone feels
-                    welcome
-                    and valued.</li>
-                <li><strong>Continuous Learning:</strong> We promote lifelong learning and professional development for
-                    all
-                    members of our community.</li>
-            </ul>
-        </section>
+                <div class="w3-white w3-text-grey w3-card-4">
+                    <div class="w3-display-container">
+                        <figure>
+                            <img src="/images/about-avatar-md.png" style="width:100%" alt="Avatar">
+                            <figcaption>
+                                <p style="margin-top:2em"><strong>Super Dev</strong></p>
+                            </figcaption>
+                        </figure>
+                        <!-- <div class="w3-display-bottomleft w3-container w3-text-black">
+                            <h2>James Porter</h2>
+                        </div> -->
+                    </div>
+                    <div class="w3-container">
+                        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large text-accent"></i>Developer</p>
+                        <p><i class="fa fa-home fa-fw w3-margin-right w3-large text-accent"></i>Dallas, TX</p>
+                        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large text-accent"></i>jp@mail.com</p>
+                        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large text-accent"></i>123-456-7890</p>
+                        <hr>
 
-        <section>
-            <h3 id="community" class="scroll-stop">Join Our Community</h3>
-            <p>Whether you're a seasoned developer or just starting out, Launch Studio offers a variety of resources to
-                help you grow. From workshops and hackathons to mentorship programs and networking events, there's
-                something for everyone. Join us today and be part of a vibrant community that's shaping the future of
-                technology!</p>
-        </section>
-    </main>
+                        <p class="w3-large">
+                            <b><i class="fa fa-asterisk fa-fw w3-margin-right text-accent"></i>Skills</b>
+                        </p>
+                        <p>Adobe Photoshop</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge accent" style="width:90%">90%</div>
+                        </div>
+                        <p>Photography</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge accent" style="width:80%">
+                                <div class="w3-center w3-text-white">80%</div>
+                            </div>
+                        </div>
+                        <p>Illustrator</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge accent" style="width:75%">75%</div>
+                        </div>
+                        <p>Media</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge accent" style="width:50%">50%</div>
+                        </div>
+                        <br>
+
+                        <p class="w3-large w3-text-theme"><b><i
+                                    class="fa fa-globe fa-fw w3-margin-right text-accent"></i>Languages</b></p>
+                        <p>English</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge accent" style="height:24px;width:100%"></div>
+                        </div>
+                        <p>Spanish</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge accent" style="height:24px;width:55%"></div>
+                        </div>
+                        <p>German</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge accent" style="height:24px;width:25%"></div>
+                        </div>
+                        <br>
+                    </div>
+                </div><br>
+
+                <!-- End Left Column -->
+            </div>
+
+            <!-- Right Column -->
+            <div class="w3-twothird">
+
+                <div class="w3-container w3-card w3-white w3-margin-bottom">
+                    <h2 class="w3-text-grey w3-padding-16"><i
+                            class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge text-accent"></i>Work Experience
+                    </h2>
+                    <div class="w3-container">
+                        <h5><b>Front End Developer / w3schools.com</b></h5>
+                        <h6 class="text-accent"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span
+                                class="w3-tag accent w3-round">Current</span></h6>
+                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est
+                            reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,
+                            iste.</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5><b>Web Developer / something.com</b></h5>
+                        <h6 class="text-accent"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014
+                        </h6>
+                        <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est
+                            reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,
+                            iste.</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5><b>Graphic Designer / designsomething.com</b></h5>
+                        <h6 class="text-accent"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012
+                        </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+                    </div>
+                </div>
+
+                <div class="w3-container w3-card w3-white">
+                    <h2 class="w3-text-grey w3-padding-16"><i
+                            class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge text-accent"></i>Education</h2>
+                    <div class="w3-container">
+                        <h5><b>W3Schools.com</b></h5>
+                        <h6 class="text-accent"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+                        <p>Web Development! All I need to know in one place</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5><b>London Business School</b></h5>
+                        <h6 class="text-accent"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+                        <p>Master Degree</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5><b>School of Coding</b></h5>
+                        <h6 class="text-accent"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+                        <p>Bachelor Degree</p><br>
+                    </div>
+                </div>
+
+                <!-- End Right Column -->
+            </div>
+
+            <!-- End Grid -->
+        </div>
+
+        <!-- End Page Container -->
+    </div>
 
     <!-- Page Footer -->
     <footer class="flex-footer">
@@ -129,6 +215,7 @@
             </ul>
         </nav>
     </footer>
+
 </body>
 
 </html>

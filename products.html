@@ -25,144 +25,190 @@
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <!-- CSS Reset - https://meyerweb.com/eric/tools/css/reset/index.html -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/layout.css"> <!-- Layout CSS -->
-    <link rel="stylesheet" href="css/products.css"> <!-- Products CSS -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="css/products.css">
 </head>
 
 <body>
     <!-- Nav bar -->
     <nav class="main-nav" aria-label="Main navigation">
-        <a href="index.html" class="w">Home</a>
-        <a href="about-us.html">About Us</a>
-        <a href="contact-us.html">Contact Us</a>
-        <a href="team.html">Team</a>
-        <a href="products.html">Products</a>
-        <a href="#" class="sign-in">Sign In</a>
+        <a href="index.html" class="w3-btn w3-round-large">Home</a>
+        <a href="about-us.html" class="w3-btn w3-round-large">About Us</a>
+        <a href="contact-us.html" class="w3-btn w3-round-large">Contact Us</a>
+        <a href="team.html" class="w3-btn w3-round-large">Team</a>
+        <a href="products.html" class="w3-btn w3-round-large">Products</a>
+        <a href="#" class="sign-in w3-btn w3-round-large">Sign In</a>
     </nav>
 
     <!-- Page Header -->
     <header class="site-header">
-
         <h1>Launch Studio Products</h1>
-
         <img src="images/logo.png" class="logo" alt="Launch Studio logo">
     </header>
 
-    <!-- Main content -->
-    <main class="products-grid">
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+        <!-- Main content -->
+        <main class="products-grid">
 
-        <div class="feature-product">
-            <div class="w3-col s12 m12 l12">
-                <div class="w3-card-4">
+            <!-- <div class="feature-product">
+                <div>
+                    <div class="w3-card-4 w3-auto">
+                        <header class="w3-container w3-light-grey">
+                            <h2>LS Suite</h2>
+                        </header>
+                        <div class="product-card-featured">
+                            <div class="w3-container w3-center">
+                                <img src="images/lssuite.png" alt="Launch Studio Suite"
+                                    class="feature-product-image w3-image w3-left">
+                                <p>Launch Studio Suite is an all-in-one software package that combines our top tools:
+                                    Code Editor, AI Assistant, Design Tools, File Manager, and Project Manager. Get
+                                    everything you need to boost your productivity and streamline your workflow in one
+                                    convenient bundle.</p>
+                                <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!--  <div class="feature-product">
+                <div class="w3-container full-width">
+                    <div class="w3-card-4 w3-auto full-width">
+                        <header class="w3-container w3-light-grey">
+                            <h2>LS Suite</h2>
+                        </header>
+                        <div class="product-card-featured">
+                            <div class="w3-container w3-flex w3-center content-wrapper">
+                                <img src="images/lssuite.png" alt="Launch Studio Suite" class="feature-product-image w3-left">
+                                <p>Launch Studio Suite is an all-in-one software package that combines our top tools:
+                                    Code Editor, AI Assistant, Design Tools, File Manager, and Project Manager. Get
+                                    everything you need to boost your productivity and streamline your workflow in one
+                                    convenient bundle.</p>
+                            </div>
+                            <button type="button" class="w3-button w3-block w3-dark-grey centered-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="feature-product">
+
+                <div class="w3-card-4 w3-auto">
                     <header class="w3-container w3-light-grey">
                         <h2>LS Suite</h2>
                     </header>
                     <div class="product-card-featured">
-                        <div class="w3-container">
+                        <div class="w3-container w3-center">
                             <img src="images/lssuite.png" alt="Launch Studio Suite"
                                 class="feature-product-image w3-left">
                             <p>Launch Studio Suite is an all-in-one software package that combines our top tools:
                                 Code Editor, AI Assistant, Design Tools, File Manager, and Project Manager. Get
                                 everything you need to boost your productivity and streamline your workflow in one
                                 convenient bundle.</p>
+                        </div>
+                        <button type="button" class="w3-button w3-block w3-dark-grey centered-button">Add to
+                            Cart</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="second-row-product">
+                <div class="w3-card-4 w3-auto">
+                    <header class="w3-container w3-blue">
+                        <h3>AI Assistant</h3>
+                    </header>
+
+                    <div class="product-card-second-row">
+                        <div class="w3-container w3-center">
+                            <img src="images/aiassistant-md.png" alt="AI Assistant" class="product-image">
+                            <p>The AI Assistant helps you generate code snippets, debug errors, and optimize your
+                                workflow using advanced AI algorithms.</p>
                             <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
+            <div class="second-row-product">
+                <div class="w3-card-4 w3-auto">
+                    <header class="w3-container w3-green">
+                        <h3>Code Editor</h3>
+                    </header>
 
-
-        <div class="second-row-product">
-            <div class="w3-card-4 w3-auto">
-                <header class="w3-container w3-blue">
-                    <h3>AI Assistant</h3>
-                </header>
-
-                <div class="product-card-second-row">
-                    <div class="w3-container w3-center">
-                        <img src="images/aiassistant-md.png" alt="AI Assistant" class="product-image">
-                        <p>The AI Assistant helps you generate code snippets, debug errors, and optimize your
-                            workflow using advanced AI algorithms.</p>
-                        <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                    <div class="product-card-second-row">
+                        <div class="w3-center w3-container">
+                            <img src="images/codeeditor-md.png" alt="code editor product" class="product-image">
+                            <p>Code Editor is a text editor with features that specifically help write a
+                                programming language for a computer program.</p>
+                            <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="second-row-product">
-            <div class="w3-card-4 w3-auto">
-                <header class="w3-container w3-green">
-                    <h3>Code Editor</h3>
-                </header>
 
-                <div class="product-card-second-row">
-                    <div class="w3-center w3-container">
-                        <img src="images/codeeditor-md.png" alt="code editor product" class="product-image">
-                        <p>Code Editor is a text editor with features that specifically help write a
-                            programming language for a computer program.</p>
-                        <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+            <div class="third-row-product">
+                <div class="w3-card-4">
+                    <header class="w3-container w3-green">
+                        <h3>Design Tools</h3>
+                    </header>
+
+                    <div class="product-card-third-row">
+                        <div class="w3-center w3-container">
+                            <img src="images/designtools-md.png" alt="design tools product" class="product-image">
+                            <p>Design Tools help create, modify, and optimize designs across graphic, web, and
+                                industrial
+                                fields.</p>
+                            <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
+            <div class="third-row-product">
+                <div class="w3-card-4 ">
+                    <header class="w3-container w3-green">
+                        <h3>File Manager</h3>
+                    </header>
 
-        <div class="third-row-product">
-            <div class="w3-card-4">
-                <header class="w3-container w3-green">
-                    <h3>Design Tools</h3>
-                </header>
-
-                <div class="product-card-third-row">
-                    <div class="w3-center w3-container">
-                        <img src="images/designtools-md.png" alt="design tools product" class="product-image">
-                        <p>Design Tools help create, modify, and optimize designs across graphic, web, and industrial
-                            fields.</p>
-                        <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                    <div class="product-card-third-row">
+                        <div class="w3-center w3-container">
+                            <img src="images/filemanager-md.png" alt="file manager product" class="product-image">
+                            <p>File Manager helps you organize and manage your files efficiently.</p>
+                            <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="third-row-product">
-            <div class="w3-card-4 ">
-                <header class="w3-container w3-green">
-                    <h3>File Manager</h3>
-                </header>
+            <div class="third-row-product">
+                <div class="w3-card-4 ">
+                    <header class="w3-container w3-green">
+                        <h3>Project Manager</h3>
+                    </header>
 
-                <div class="product-card-third-row">
-                    <div class="w3-center w3-container">
-                        <img src="images/filemanager-md.png" alt="file manager product" class="product-image">
-                        <p>File Manager helps you organize and manage your files efficiently.</p>
-                        <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                    <div class="product-card-third-row">
+                        <div class="w3-center w3-container">
+                            <img src="images/projectmanager-md.png" alt="Project Manager" class="product-image">
+                            <p>The Project Manager helps you organize tasks, set deadlines, and collaborate with
+                                team members efficiently.</p>
+                            <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
+    </div>
 
-        <div class="third-row-product">
-            <div class="w3-card-4 ">
-                <header class="w3-container w3-green">
-                    <h3>Project Manager</h3>
-                </header>
 
-                <div class="product-card-third-row">
-                    <div class="w3-center w3-container">
-                        <img src="images/projectmanager-md.png" alt="Project Manager" class="product-image">
-                        <p>The Project Manager helps you organize tasks, set deadlines, and collaborate with
-                            team members efficiently.</p>
-                        <button type="button" class="w3-button w3-block w3-dark-grey">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
 
     <!-- Page Footer -->
     <footer class="flex-footer">

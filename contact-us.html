@@ -25,22 +25,22 @@
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <!-- CSS Reset - https://meyerweb.com/eric/tools/css/reset/index.html -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/layout.css"> <!-- Layout CSS -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 
 <body>
     <!-- Nav bar -->
     <nav class="main-nav" aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="about-us.html">About Us</a>
-        <a href="contact-us.html">Contact Us</a>
-        <a href="team.html">Team</a>
-        <a href="products.html">Products</a>
-        <a href="#" class="sign-in">Sign In</a>
+        <a href="index.html" class="w3-btn w3-round-large">Home</a>
+        <a href="about-us.html" class="w3-btn w3-round-large">About Us</a>
+        <a href="contact-us.html" class="w3-btn w3-round-large">Contact Us</a>
+        <a href="team.html" class="w3-btn w3-round-large">Team</a>
+        <a href="products.html" class="w3-btn w3-round-large">Products</a>
+        <a href="#" class="sign-in w3-btn w3-round-large">Sign In</a>
     </nav>
 
     <!-- Page Header -->
@@ -49,75 +49,81 @@
         <img src="images/logo.png" class="logo" alt="Launch Studio logo">
     </header>
 
-    <!-- Main content -->
-    <main class="main-content">
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+        <!-- Main content -->
+        <main class="main-content">
 
-        <!-- Accessible Contact Us form with semantic elements-->
-        <section>
-            <h2 id="contact-form-heading">Contact Us</h2>
-            <form class="w3-container" name="contact" action="success.html" method="get">
-                <fieldset>
-                    <legend>Get in touch</legend>
-                    <p>
-                        <label for="name">Name</label>
-                        <input class="w3-input" type="text" id="name" name="name" placeholder="Firstname Lastname"
-                            required>
-                    </p>
-
-                    <p>
-                        <label for="phone">Phone</label>
-                        <input class="w3-input" type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
-                    </p>
-
-                    <p>
-                        <label for="email">Email</label>
-                        <input class="w3-input" type="email" id="email" name="email" placeholder="username@example.com"
-                            required>
-                    </p>
-
-                    <p>
-                        <label for="topic">Concern</label>
-                        <select class="w3-select" id="topic" name="topic">
-                            <option value="education">Education</option>
-                            <option value="employment">Employment</option>
-                        </select>
-                    </p>
-
-                    <p>
-                        <input class="inline-control w3-check" type="checkbox" id="subscribe" name="subscribe">
-                        <label class="inline-control" for="subscribe" title="Subscribe to newsletter.">Subscribe to
-                            newsletter</label>
-                    </p>
-
-
+            <!-- Accessible Contact Us form with semantic elements-->
+            <section>
+                <h2 id="contact-form-heading">Contact Us</h2>
+                <form class="w3-container" name="contact" action="success.html" method="get">
                     <fieldset>
-                        <legend>Request Type</legend>
+                        <legend>Get in touch</legend>
                         <p>
+                            <label for="name">Name</label>
+                            <input class="w3-input" type="text" id="name" name="name" placeholder="Firstname Lastname"
+                                required>
+                        </p>
 
-                            <input class="inline-control w3-radio" id="reqemail" type="radio" name="request">
-                            <label class="inline-control" for="reqemail" title="Select if you want to be emailed.">
-                                Question</label>
+                        <p>
+                            <label for="phone">Phone</label>
+                            <input class="w3-input" type="tel" id="phone" name="phone" placeholder="123-456-7890"
+                                required>
+                        </p>
 
-                            <input class="inline-control w3-radio" id="reqphone" type="radio" name="request">
-                            <label class="inline-control" for="reqphone" title="Select if you want to be called.">
-                                Comment</label>
+                        <p>
+                            <label for="email">Email</label>
+                            <input class="w3-input" type="email" id="email" name="email"
+                                placeholder="username@example.com" required>
+                        </p>
+
+                        <p>
+                            <label for="topic">Concern</label>
+                            <select class="w3-select" id="topic" name="topic">
+                                <option value="education">Education</option>
+                                <option value="employment">Employment</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <input class="inline-control w3-check" type="checkbox" id="subscribe" name="subscribe">
+                            <label class="inline-control" for="subscribe" title="Subscribe to newsletter.">Subscribe to
+                                newsletter</label>
+                        </p>
+
+
+                        <fieldset>
+                            <legend>Request Type</legend>
+                            <p>
+
+                                <input class="inline-control w3-radio" id="reqemail" type="radio" name="request">
+                                <label class="inline-control" for="reqemail" title="Select if you want to be emailed.">
+                                    Question</label>
+
+                                <input class="inline-control w3-radio" id="reqphone" type="radio" name="request">
+                                <label class="inline-control" for="reqphone" title="Select if you want to be called.">
+                                    Comment</label>
+                            </p>
+                        </fieldset>
+
+                        <p>
+                            <label for="message">Message</label>
+                            <textarea class="w3-input" id="message" name="message" rows="5" cols="40"
+                                placeholder="Enter your message here..." required></textarea>
+                        </p>
+
+                        <p class="button-container">
+                            <button class="w3-btn w3-theme-d5" type="submit">Submit</button>
+                            <button class="w3-btn w3-orange" type="reset">Reset</button>
                         </p>
                     </fieldset>
+                </form>
+            </section>
+        </main>
+    </div>
 
-                    <p>
-                        <label for="message">Message</label>
-                        <textarea class="w3-input" id="message" name="message" rows="5" cols="40"
-                            placeholder="Enter your message here..." required></textarea>
-                    </p>
 
-                    <p class="button-container">
-                        <button class="w3-btn w3-theme-d5" type="submit">Submit</button>
-                        <button class="w3-btn w3-orange" type="reset">Reset</button>
-                    </p>
-                </fieldset>
-            </form>
-        </section>
-    </main>
 
     <!-- Page Footer -->
     <footer class="flex-footer">
